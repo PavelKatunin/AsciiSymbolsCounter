@@ -20,6 +20,7 @@
     AsciiCounter *counter = [[AsciiCounter alloc] init];
     XCTAssertEqual('e', [counter mostFrequentCharacterInSequence:"ehejenekek" ofSize:10]);
     XCTAssertEqual('k', [counter mostFrequentCharacterInSequence:"kkkjenekek" ofSize:10]);
+    XCTAssertEqual('c', [counter mostFrequentCharacterInSequence:"ababaccccc" ofSize:10]);
 }
 
 @end

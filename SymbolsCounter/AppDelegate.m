@@ -18,8 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     AsciiCounter *counter = [[AsciiCounter alloc] init];
-    printf("%c", [counter mostFrequentCharacterInSequence:"aaalllmmmbodfkbghjvferwhjfpodnfqweeeeqqqqqqr"
-                                                   ofSize:45]);
+    printf("%c", [counter mostFrequentCharacterInSequence:"ababaccccc"
+                                                   ofSize:10]);
     return YES;
 }
 
